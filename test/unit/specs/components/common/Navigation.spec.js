@@ -10,4 +10,8 @@ describe('Navigation.vue', () => {
   it('should render correct team name passed', () => {
     expect(vm.$el.querySelector('.menu-container').textContent).to.contain('foo');
   });
+
+  it('should render childrens', () => {
+    expect(vm.$children[0].$children.length).to.eq(4);
+  });
 });

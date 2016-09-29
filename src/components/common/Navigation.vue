@@ -14,7 +14,7 @@
     </div>
 
     <div class="actions-container">
-      <actions></actions>
+      <actions :user="user"></actions>
     </div>
   </header>
 
@@ -28,7 +28,7 @@
 
   export default {
     name: 'Navigation',
-    props: ['teamName'],
+    props: ['teamName', 'user'],
     components: {
       Menu,
       Search,

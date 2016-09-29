@@ -1,6 +1,9 @@
 <template>
 
-  <navigation team-name='Codeminer42'></navigation>
+  <navigation
+    team-name="Codeminer42"
+    :user="{name: 'Palma Vini', initials: 'PV'}">
+  </navigation>
 
 </template>
 

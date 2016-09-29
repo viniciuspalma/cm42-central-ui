@@ -5,11 +5,14 @@
   </div>
 
   <div class="actions-user">
-    <user-box user-name='Vini Palma' user-initials='VP'></user-box>
+    <user-box
+      :user-name="user.name"
+      :user-initials="user.initials">
+    </user-box>
   </div>
 
   <div class="actions-notifications">
-    <notification-trigger></notificatio-trigger>
+    <notification-trigger></notification-trigger>
   </div>
 
 </template>
@@ -22,6 +25,7 @@
 
   export default {
     name: 'Actions',
+    props: ['user'],
     components: {
       NotificationTrigger,
       UserBox,
