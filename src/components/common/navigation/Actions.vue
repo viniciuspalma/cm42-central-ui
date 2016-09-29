@@ -31,7 +31,7 @@
 
 </script>
 
-<style>
+<style scoped>
 
   .actions-button,
   .actions-user,

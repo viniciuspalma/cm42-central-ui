@@ -16,7 +16,7 @@
 
 </script>
 
-<style>
+<style scoped>
   .logo-link {
     display: block;
   }

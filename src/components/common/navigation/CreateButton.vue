@@ -18,7 +18,7 @@
 
 </script>
 
-<style>
+<style scoped>
 
   .button {
     -webkit-appearance: none;

@@ -16,7 +16,7 @@
 
 </script>
 
-<style>
+<style scoped>
 
   .user-initials,
   .user-name {

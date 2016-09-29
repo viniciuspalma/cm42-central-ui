@@ -16,7 +16,7 @@
 
 </script>
 
-<style>
+<style scoped>
 
   .notifications-icon {
     display: inline-block;
